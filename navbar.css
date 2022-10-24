@@ -7,7 +7,7 @@
 }
 
 nav{
-    background: rgba(0, 0, 0, 0.597);
+    background: rgba(0, 0, 0, 0.329);
     height: 90px;
     width: 100%;
 
@@ -15,11 +15,11 @@ nav{
 
 .enlace{
     position: absolute;
-    padding: 20px 50px;
+    padding: 2px 50px;
 }
 
 .logo{
-    height: 50px;
+    height: 80px;
 
 }
 
@@ -36,8 +36,9 @@ nav ul li{
 }
 
 nav ul li a{
-    color: rgba(231, 234, 237, 0.668);
+    color: rgba(7, 7, 7, 0.668);
     font-size: 15px;
+    font-weight: bold;
     padding: 7px 13px;
     border-radius: 7px;
 

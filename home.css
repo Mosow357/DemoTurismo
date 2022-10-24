@@ -14,6 +14,7 @@ body{
     height: 100%;
     object-fit: cover;
     opacity: 0.3;
+    z-index: -2;
 }
 
 
@@ -33,7 +34,7 @@ body{
 .tarjeta{
     transition: 0.5s;
     border: 7px;
-    border-color: rgba(231, 234, 237, 0.895);
+    border-color: rgba(231, 234, 237, 0.703);
     border-radius: 5px;
     align-items: center;
     justify-content: center;
@@ -42,7 +43,7 @@ body{
 }
 
 .tarjeta button {
-    background: rgba(0, 0, 0, 0.689);
+    background: rgba(0, 0, 0, 0.5);
     border-color: rgb(2, 166, 242);
     border-radius: 15px;
     width: 25vh;
@@ -52,7 +53,7 @@ body{
 }
 
 .tarjeta a {
-    color: rgba(231, 234, 237, 0.586);
+    color: rgba(231, 234, 237, 0.375);
     transition: 1s;
    
     font-size: 13vh;
