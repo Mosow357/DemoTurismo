@@ -26,8 +26,8 @@ body{
    grid-column-gap: 30px;
    grid-row-gap: 30px;
    align-items: center;
-   margin-top: 50px;
-   margin-bottom: 25px;
+   margin-top: 15px;
+   margin-bottom: -15px;
 
 }
 

@@ -26,11 +26,12 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
+    height: 77vh;
 }
 
 nav ul li{
     display: inline-block;
-    line-height: 80px;
+    line-height: 20px;
     margin: 0 5px;
 
 }
@@ -39,7 +40,7 @@ nav ul li a{
     color: rgba(7, 7, 7, 0.668);
     font-size: 15px;
     font-weight: bold;
-    padding: 7px 13px;
+    padding: 3px 13px;
     border-radius: 7px;
 
 }
@@ -82,16 +83,16 @@ li a.active, li a:hover{
     ul{
         position: fixed;
         width: 100%;
-        height: calc(100vh - 80px);
+        height: 50vh;
         background: rgba(231, 234, 237, 0.825);
-        top: 80px;
+        top: 70px;
         left: -100%;
         text-align: center;
         transition: all .7s;
     }
     nav ul li{
         display: block;
-        margin: 50px 0;
+        margin: 28px 0;
         line-height: 30px;
     }
     nav ul li a{

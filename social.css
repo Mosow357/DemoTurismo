@@ -1,8 +1,8 @@
-#social {
+.social{
     display: flex;
     position: fixed;
     position: relative;
-    
+    height: 20px;
     justify-content: space-evenly;
     z-index: 10;
     left: 0;
@@ -10,14 +10,14 @@
     
 }
 
-#social li {
+.social li{
     list-style: none;
     align-items: center;
     justify-content: space-between;
 
 }
 
-#social li a {
+.social li a {
     display: inline-block;
     
     color: aliceblue;
@@ -27,7 +27,7 @@
 
 }
 
-#social li a:hover {
+.social li a:hover {
     transform: scale(1.3) translateY(-5px);
 
 }
