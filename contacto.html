@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Contacto</title>
-    <link rel="stylesheet" href="./contacto.css" />
+    <link rel="stylesheet" href="./contacto.css">
+    <link rel="stylesheet" href="./social.css">
+    <link rel="stylesheet" href="./navbar.css">
+    
     <link
       href="https://fonts.googleapis.com/css?family=Quicksand"
       rel="stylesheet"
@@ -28,6 +31,24 @@
   </head>
 
   <body>
+    <nav>
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="./imagenes/Municipio-icono.png" alt="" srcset="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="./index.html">Inicio</a></li>
+            <li><a href="#">Gastronomia</a></li>
+            <li><a href="#">Alojamiento</a></li>
+            <li><a href="#">Actividades</a></li>
+            <li><a href="#">Puntos de Interés</a></li>
+            <li><a href="#">Emergencias</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
     <div class="content showcase">
       <h1 class="logo2"><b>CO</b>NTACTO</h1>
 
@@ -42,7 +63,7 @@
               </p>
 
               <p>
-                <label>Numero de Telefono</label>
+                <label>Número de Telefono</label>
                 <input type="tel" name="phone" id="phone" />
               </p>
             </div>
@@ -73,6 +94,7 @@
             <p class="warnings" id="warnings"></p>
           </form>
         </div>
+        
         <div class="contact-info">
           <h4>Informacion</h4>
           <ul>
@@ -90,9 +112,20 @@
             <li><i class="fas fa-envelope-open-text"></i> tornquist.gov.ar</li>
           </ul>
 
-          <p>Desarrollado por ..</p>
+                    
         </div>
+
+        <ul class="social">
+            
+            <li><a href="https://www.instagram.com/tornquistmunicipio/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/tornquistmun"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/TornquistMunicipio/?fref=ts"><i class="fa-brands fa-facebook"></i></a></li>
+            
+    
+        </ul> 
+
       </div>
+      
     </div>
 
     <script src="./validation.js"></script>

@@ -89,6 +89,7 @@ li a.active, li a:hover{
         left: -100%;
         text-align: center;
         transition: all .7s;
+        
     }
     nav ul li{
         display: block;
@@ -105,5 +106,6 @@ li a.active, li a:hover{
     }
     #check:checked ~ ul{
         left: 0;
+        z-index: 99;
     }
 }
