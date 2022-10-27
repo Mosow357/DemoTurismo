@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    height: 100vh;
 }
 
 .tarjeta button b {
@@ -26,8 +27,8 @@ body{
    grid-column-gap: 30px;
    grid-row-gap: 30px;
    align-items: center;
-   margin-top: 5vh;
-   margin-bottom: 5vh;
+   margin-top: 5rem;
+   margin-bottom: 5rem;
 
 }
 
@@ -68,7 +69,7 @@ body{
 @media(min-width: 920px){
     .categorias{
         display: flex;
-        height: 77vh;
+        height: 60vh;
         justify-content: space-evenly;
 
     }
