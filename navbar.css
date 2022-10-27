@@ -116,3 +116,20 @@ li a.active, li a:hover{
     }
 }
 
+@media (min-width: 1180px){
+    .navBar{
+        height: 80px;
+
+
+    }
+    nav{
+        background: rgba(231, 234, 237, 0.504)
+    }
+    nav ul li{
+        padding-top: 30px;
+    }
+    nav ul li a{
+        padding-right: 7px;
+    }
+
+}
