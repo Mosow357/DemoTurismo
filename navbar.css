@@ -98,10 +98,10 @@ li a.active, li a:hover{
         line-height: 30px;
     }
     nav ul li a{
-        font-size: 20px;
-        margin-bottom: 40px;
+        font-size: 35px;
+        
         color: rgba(7, 7, 7, 0.668);
-        font-size: 15px;
+        
         font-weight: bold;
         padding: 3px 13px;
         
@@ -116,20 +116,3 @@ li a.active, li a:hover{
     }
 }
 
-@media (min-width: 1180px){
-    .navBar{
-        height: 80px;
-               
-        
-    }
-    nav{
-        background: rgba(231, 234, 237, 0.504)
-    }
-    nav ul li{
-        padding-top: 30px;
-    }
-    nav ul li a{
-        padding-right: 7px;
-    }
-    
-}

@@ -26,8 +26,8 @@ body{
    grid-column-gap: 30px;
    grid-row-gap: 30px;
    align-items: center;
-   margin-top: 8vh;
-   margin-bottom: 8vh;
+   margin-top: 5vh;
+   margin-bottom: 5vh;
 
 }
 
@@ -48,7 +48,8 @@ body{
     border-color: rgb(2, 166, 242);
     border-radius: 15px;
     width: 20vh;
-    height: 20vh;
+    height: 24vh;
+    padding: 9px 9px;
     
 
 }
@@ -60,7 +61,7 @@ body{
     font-size: 13vh;
 }
 
-.tarjeta h2 {
+.tarjeta h3 {
     color: rgba(231, 234, 237, 0.895);
 }
 
@@ -76,5 +77,6 @@ body{
     }
     .tarjeta button{
         width: fit-content;
+        
     }
 }
