@@ -14,7 +14,7 @@ body {
     color: #f7f7f7;
     border-color: rgb(2, 166, 242);
     border-style: solid;
-    border-radius: 50%;
+    border-radius: 12px;
 }
 .contenedor{
     max-width: 90%;
@@ -29,7 +29,7 @@ body {
     max-width: 85%;
     height: 20vh;
     margin: 2vh auto;
-    box-shadow: 0 0px 25px rgb(2, 166, 242);
+    box-shadow: 0 0px 25px rgba(2, 166, 242, 0.688);
 }
 .card-body > h5{
     font-size: 2vw;
