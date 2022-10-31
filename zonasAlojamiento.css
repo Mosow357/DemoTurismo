@@ -41,7 +41,7 @@ body {
 
 .card .front {
     transform: perspective(600px) rotateX(0deg);
-    box-shadow: 0 5px 10px black;
+    box-shadow: 0 5px 10px #03a9f4;
     opacity: .8;
 }
 
@@ -72,7 +72,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 0 5px 10px black;
+    box-shadow: 0 5px 10px #03a9f4;
 }
 
 .card .back .link {
@@ -101,6 +101,16 @@ body {
 
 @media (min-width: 1180px){
     .card-board {
-        display: inline;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        align-content: space-around;
+        
+               
     }
+    
+
+    
 }
