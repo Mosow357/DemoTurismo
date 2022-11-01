@@ -1,6 +1,7 @@
 body{
     background-color: black;
     height: 100vh;
+    font-family: 'Saira Condensed', sans-serif;
 }
 
 .tarjeta button b {
