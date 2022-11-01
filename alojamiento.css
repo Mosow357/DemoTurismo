@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    font-family: Verdana, Tahoma, sans-serif;
-}
+
 .titulo {
     text-align: center;
     margin: 8vh 0;

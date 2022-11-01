@@ -1,7 +1,7 @@
 body{
     background-color: black;
     height: 100vh;
-    font-family: 'Saira Condensed', sans-serif;
+    
 }
 
 .tarjeta button b {
@@ -78,7 +78,7 @@ body{
         margin-bottom: 15px;
     }
     .tarjeta button{
-        width: fit-content;
+        width: 200px;
         
     }
 }
