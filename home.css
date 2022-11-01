@@ -26,11 +26,10 @@ body{
    display: grid;
    grid-template-columns: 1fr 1fr;
    grid-template-rows: repeat(2, 1fr);
-   grid-column-gap: 30px;
-   grid-row-gap: 30px;
+   grid-column-gap: 3vh;
+   grid-row-gap: 3vh;
    align-items: center;
-   margin-top: 5rem;
-   margin-bottom: 5rem;
+   
 
 }
 
@@ -42,7 +41,8 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 32px;
+    
+    margin: 15px;
     
 }
 
@@ -50,9 +50,9 @@ body{
     background: rgba(0, 0, 0, 0.5);
     border-color: rgb(2, 166, 242);
     border-radius: 15px;
-    width: 20vh;
+    width: 24vh;
     height: 24vh;
-    padding: 9px 9px;
+   
     box-shadow: 0 5px 10px #03a9f4;
     
 
@@ -89,5 +89,12 @@ body{
     .tarjeta button{
         width: 200px;
         
+    }
+}
+
+@media(max-width: 400px){
+    .categorias {
+        display: flex;
+        flex-direction: column;
     }
 }
