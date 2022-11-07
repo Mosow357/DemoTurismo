@@ -96,7 +96,7 @@ body{
     }
 }
 
-@media(max-width: 400px){
+@media(max-width: 460px){
     .categorias {
         display: flex;
         flex-direction: column;
