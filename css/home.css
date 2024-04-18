@@ -11,7 +11,7 @@ body{
 
 
 .background{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -19,6 +19,7 @@ body{
     object-fit: cover;
     opacity: 0.3;
     z-index: -2;
+
 }
 
 
@@ -30,7 +31,8 @@ body{
    grid-column-gap: 3vh;
    grid-row-gap: 3vh;
    align-items: center;
-   padding-top: 151px;
+   
+   padding: 21vh 0 21vh;
    
 
 }
