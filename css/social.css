@@ -7,7 +7,7 @@
     z-index: 99;
     background: rgba(0, 0, 0, 0.893);
     margin: 0;
-    position: fixed;
+    position: sticky;
 
     
     /* overflow: visible; */
